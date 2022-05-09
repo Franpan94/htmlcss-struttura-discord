@@ -150,3 +150,33 @@ header{
     border: 2px dotted white;
 }
 
+footer{
+    background-color: black;
+    height: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.container-flex-five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: aqua;
+}
+
+.logo-two{
+    background-color: hotpink;
+    border: 2px dotted black;
+    padding: 3px;
+}
+
+button{
+    background-color: hotpink;
+    border: 2px dotted black;
+    padding: 3px;
+}
+
