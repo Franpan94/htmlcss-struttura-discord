@@ -7,8 +7,8 @@
 header{
     background-color: lightblue;
     height: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -55,3 +55,98 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
+
+.container{
+    background-color: rgb(2, 2, 69);
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 500px;
+}
+
+.minicontainer{
+    background-color: hotpink;
+    height: 100%;
+    border: dotted black;
+   }
+
+   .container-flex-two{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 500px;
+   }
+
+   .mincontainer-flex-two{
+    background-color: dodgerblue;
+    height: 100%;
+    display: flex;
+    flex-grow: 0.6;
+    border: 2px dotted black;
+   }
+
+    .mincontainer-flex-three{ 
+    background-color: lightsalmon;
+    height: 100%;
+    display: flex;
+    flex-grow: 0.4;
+    border: 2px dotted black;
+    } 
+
+    .container-flex-three{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 500px;
+    }
+  
+    .container-two{
+        background-color: silver;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: 800px;
+    }
+    
+    .minicontainer-two{
+        background-color: darkgreen;
+        height: 100%;
+        border: dotted black;
+       }  
+
+.container-flex-four{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.mini-container-flex-four{
+    background-color: salmon;
+    height: 100%;
+    display: flex;
+    flex-grow: 0.34;
+    border: 2px dotted black;
+}
+
+.mini-container-flex-five{
+    background-color: lightseagreen;
+    height: 100%;
+    display: flex;
+    flex-grow: 0.165;
+    border: 2px dotted white;
+}
+
